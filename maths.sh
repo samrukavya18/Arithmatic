@@ -41,3 +41,8 @@ Des(){
  printf '%s\n'  "$@" | sort -r
 } 
  Des "${array[@]}"
+
+Asc() {
+ printf '%s\n' "$@" | sort
+}
+Asc "${array[@]}"
