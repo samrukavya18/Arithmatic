@@ -35,3 +35,9 @@ do
 
      echo "array values :" ${array[@]}
 done
+
+
+Des(){
+ printf '%s\n'  "$@" | sort -r
+} 
+ Des "${array[@]}"
