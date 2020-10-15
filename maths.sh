@@ -17,3 +17,12 @@ echo $f
 
 g=$(( a % b + c ))
 echo $g
+
+declare -A values
+
+values[d]="$d"
+values[e]="$e"
+values[f]="$f"
+values[g]="$g"
+
+echo "All values"${values[@]}
