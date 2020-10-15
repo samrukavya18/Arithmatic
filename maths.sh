@@ -8,3 +8,6 @@ read -p "Enter c value :" c
 
 d=$(( a + b * c ))
 echo $d
+
+e=$(( a * b + c ))
+echo $e
